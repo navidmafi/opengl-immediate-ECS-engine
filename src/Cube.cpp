@@ -1,5 +1,6 @@
 #include <Cube.hpp>
 #include <Renderer.hpp>
+#include <cmath>
 
 Cube::Cube()
 {
@@ -42,4 +43,11 @@ void Cube::render()
 void Cube::update(float deltaTime)
 {
     rotation.y += 90.0f * deltaTime;
+    rotation.x += 20.0f * deltaTime;
+
+    animationTime += deltaTime;
+
+    // Apply sinusoidal scale animation
+    float scaleAmount = 0.3f + 0.2f * sin(animationTime * M_PI * 0.5);
+    scale = {scaleAmount, scaleAmount, scaleAmount};
 }

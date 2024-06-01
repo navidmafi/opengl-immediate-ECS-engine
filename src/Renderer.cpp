@@ -28,3 +28,8 @@ void OpenGLRenderer::initializeGL()
     glShadeModel(GL_SMOOTH);
     glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
 }
+
+double OpenGLRenderer::targetFrametime()
+{
+    return 1.0 / config.framecap;
+}

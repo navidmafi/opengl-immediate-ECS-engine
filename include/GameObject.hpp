@@ -7,6 +7,9 @@
 
 class GameObject
 {
+protected:
+    float animationTime = 0;
+
 public:
     Position position;
     Rotation rotation;

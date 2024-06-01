@@ -20,6 +20,7 @@ public:
     OpenGLRenderer(RendererConfig config);
     void initializeCtx();
     void initializeGL();
+    double targetFrametime();
 };
 
 #endif // OPENGLRENDERER_H

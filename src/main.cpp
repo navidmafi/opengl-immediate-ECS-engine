@@ -4,7 +4,8 @@
 #include <Clock.hpp>
 #include <GameHost.hpp>
 #include <fmt/core.h>
-
+#include <chrono>
+#include <thread>
 int main()
 {
     WindowConfig window_config = {
@@ -16,7 +17,7 @@ int main()
         .fb_width = 600,
         .fb_height = 600,
         .vsync = false,
-        .framecap = 30,
+        .framecap = 150,
         .compat_profile = true};
 
     GameHost host(window_config);
@@ -48,8 +49,21 @@ int main()
 
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             scene.renderScene();
+
             glfwSwapBuffers(host.getWindow());
             glfwPollEvents();
+
+            if (deltaTime < renderer.targetFrametime())
+            {
+                double sleepTime = renderer.targetFrametime() - deltaTime;
+
+                long sleepMilliseconds = static_cast<long>(sleepTime * 1000.0);
+
+                if (sleepMilliseconds > 0)
+                {
+                    std::this_thread::sleep_for(std::chrono::milliseconds(sleepMilliseconds));
+                }
+            }
         }
     }
     catch (const std::exception &e)
