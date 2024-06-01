@@ -69,10 +69,94 @@ include CMakeFiles/testas.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testas.dir/flags.make
 
+CMakeFiles/testas.dir/src/Clock.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/Clock.cpp.o: src/Clock.cpp
+CMakeFiles/testas.dir/src/Clock.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testas.dir/src/Clock.cpp.o"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/Clock.cpp.o -MF CMakeFiles/testas.dir/src/Clock.cpp.o.d -o CMakeFiles/testas.dir/src/Clock.cpp.o -c /home/navid/Dev/graphics/gl1/src/Clock.cpp
+
+CMakeFiles/testas.dir/src/Clock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/Clock.cpp.i"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/Clock.cpp > CMakeFiles/testas.dir/src/Clock.cpp.i
+
+CMakeFiles/testas.dir/src/Clock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/Clock.cpp.s"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/Clock.cpp -o CMakeFiles/testas.dir/src/Clock.cpp.s
+
+CMakeFiles/testas.dir/src/GameHost.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/GameHost.cpp.o: src/GameHost.cpp
+CMakeFiles/testas.dir/src/GameHost.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testas.dir/src/GameHost.cpp.o"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/GameHost.cpp.o -MF CMakeFiles/testas.dir/src/GameHost.cpp.o.d -o CMakeFiles/testas.dir/src/GameHost.cpp.o -c /home/navid/Dev/graphics/gl1/src/GameHost.cpp
+
+CMakeFiles/testas.dir/src/GameHost.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/GameHost.cpp.i"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/GameHost.cpp > CMakeFiles/testas.dir/src/GameHost.cpp.i
+
+CMakeFiles/testas.dir/src/GameHost.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/GameHost.cpp.s"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/GameHost.cpp -o CMakeFiles/testas.dir/src/GameHost.cpp.s
+
+CMakeFiles/testas.dir/src/GameObject.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/GameObject.cpp.o: src/GameObject.cpp
+CMakeFiles/testas.dir/src/GameObject.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testas.dir/src/GameObject.cpp.o"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/GameObject.cpp.o -MF CMakeFiles/testas.dir/src/GameObject.cpp.o.d -o CMakeFiles/testas.dir/src/GameObject.cpp.o -c /home/navid/Dev/graphics/gl1/src/GameObject.cpp
+
+CMakeFiles/testas.dir/src/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/GameObject.cpp.i"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/GameObject.cpp > CMakeFiles/testas.dir/src/GameObject.cpp.i
+
+CMakeFiles/testas.dir/src/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/GameObject.cpp.s"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/GameObject.cpp -o CMakeFiles/testas.dir/src/GameObject.cpp.s
+
+CMakeFiles/testas.dir/src/Renderer.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/Renderer.cpp.o: src/Renderer.cpp
+CMakeFiles/testas.dir/src/Renderer.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testas.dir/src/Renderer.cpp.o"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/Renderer.cpp.o -MF CMakeFiles/testas.dir/src/Renderer.cpp.o.d -o CMakeFiles/testas.dir/src/Renderer.cpp.o -c /home/navid/Dev/graphics/gl1/src/Renderer.cpp
+
+CMakeFiles/testas.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/Renderer.cpp.i"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/Renderer.cpp > CMakeFiles/testas.dir/src/Renderer.cpp.i
+
+CMakeFiles/testas.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/Renderer.cpp.s"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/Renderer.cpp -o CMakeFiles/testas.dir/src/Renderer.cpp.s
+
+CMakeFiles/testas.dir/src/Scene.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/Scene.cpp.o: src/Scene.cpp
+CMakeFiles/testas.dir/src/Scene.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testas.dir/src/Scene.cpp.o"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/Scene.cpp.o -MF CMakeFiles/testas.dir/src/Scene.cpp.o.d -o CMakeFiles/testas.dir/src/Scene.cpp.o -c /home/navid/Dev/graphics/gl1/src/Scene.cpp
+
+CMakeFiles/testas.dir/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/Scene.cpp.i"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/Scene.cpp > CMakeFiles/testas.dir/src/Scene.cpp.i
+
+CMakeFiles/testas.dir/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/Scene.cpp.s"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/Scene.cpp -o CMakeFiles/testas.dir/src/Scene.cpp.s
+
+CMakeFiles/testas.dir/src/Cube.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/Cube.cpp.o: src/Cube.cpp
+CMakeFiles/testas.dir/src/Cube.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testas.dir/src/Cube.cpp.o"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/Cube.cpp.o -MF CMakeFiles/testas.dir/src/Cube.cpp.o.d -o CMakeFiles/testas.dir/src/Cube.cpp.o -c /home/navid/Dev/graphics/gl1/src/Cube.cpp
+
+CMakeFiles/testas.dir/src/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/Cube.cpp.i"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/Cube.cpp > CMakeFiles/testas.dir/src/Cube.cpp.i
+
+CMakeFiles/testas.dir/src/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/Cube.cpp.s"
+	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/Cube.cpp -o CMakeFiles/testas.dir/src/Cube.cpp.s
+
 CMakeFiles/testas.dir/src/main.cpp.o: CMakeFiles/testas.dir/flags.make
 CMakeFiles/testas.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/testas.dir/src/main.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testas.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testas.dir/src/main.cpp.o"
 	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/main.cpp.o -MF CMakeFiles/testas.dir/src/main.cpp.o.d -o CMakeFiles/testas.dir/src/main.cpp.o -c /home/navid/Dev/graphics/gl1/src/main.cpp
 
 CMakeFiles/testas.dir/src/main.cpp.i: cmake_force
@@ -83,35 +167,33 @@ CMakeFiles/testas.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/main.cpp.s"
 	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/main.cpp -o CMakeFiles/testas.dir/src/main.cpp.s
 
-CMakeFiles/testas.dir/src/shaderload.cpp.o: CMakeFiles/testas.dir/flags.make
-CMakeFiles/testas.dir/src/shaderload.cpp.o: src/shaderload.cpp
-CMakeFiles/testas.dir/src/shaderload.cpp.o: CMakeFiles/testas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testas.dir/src/shaderload.cpp.o"
-	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testas.dir/src/shaderload.cpp.o -MF CMakeFiles/testas.dir/src/shaderload.cpp.o.d -o CMakeFiles/testas.dir/src/shaderload.cpp.o -c /home/navid/Dev/graphics/gl1/src/shaderload.cpp
-
-CMakeFiles/testas.dir/src/shaderload.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/shaderload.cpp.i"
-	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navid/Dev/graphics/gl1/src/shaderload.cpp > CMakeFiles/testas.dir/src/shaderload.cpp.i
-
-CMakeFiles/testas.dir/src/shaderload.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/shaderload.cpp.s"
-	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navid/Dev/graphics/gl1/src/shaderload.cpp -o CMakeFiles/testas.dir/src/shaderload.cpp.s
-
 # Object files for target testas
 testas_OBJECTS = \
-"CMakeFiles/testas.dir/src/main.cpp.o" \
-"CMakeFiles/testas.dir/src/shaderload.cpp.o"
+"CMakeFiles/testas.dir/src/Clock.cpp.o" \
+"CMakeFiles/testas.dir/src/GameHost.cpp.o" \
+"CMakeFiles/testas.dir/src/GameObject.cpp.o" \
+"CMakeFiles/testas.dir/src/Renderer.cpp.o" \
+"CMakeFiles/testas.dir/src/Scene.cpp.o" \
+"CMakeFiles/testas.dir/src/Cube.cpp.o" \
+"CMakeFiles/testas.dir/src/main.cpp.o"
 
 # External object files for target testas
 testas_EXTERNAL_OBJECTS =
 
+testas: CMakeFiles/testas.dir/src/Clock.cpp.o
+testas: CMakeFiles/testas.dir/src/GameHost.cpp.o
+testas: CMakeFiles/testas.dir/src/GameObject.cpp.o
+testas: CMakeFiles/testas.dir/src/Renderer.cpp.o
+testas: CMakeFiles/testas.dir/src/Scene.cpp.o
+testas: CMakeFiles/testas.dir/src/Cube.cpp.o
 testas: CMakeFiles/testas.dir/src/main.cpp.o
-testas: CMakeFiles/testas.dir/src/shaderload.cpp.o
 testas: CMakeFiles/testas.dir/build.make
 testas: glad/libglad.a
 testas: /usr/lib/libglfw.so.3.4
+testas: /usr/lib/libGLX.so
+testas: /usr/lib/libOpenGL.so
 testas: CMakeFiles/testas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/navid/Dev/graphics/gl1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable testas"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testas.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

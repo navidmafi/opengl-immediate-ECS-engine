@@ -1,1 +1,1 @@
-/sbin/c++ CMakeFiles/testas.dir/src/main.cpp.o CMakeFiles/testas.dir/src/shaderload.cpp.o -o testas  glad/libglad.a /usr/lib/libglfw.so.3.4 -lfmt
+/sbin/c++ CMakeFiles/testas.dir/src/Clock.cpp.o CMakeFiles/testas.dir/src/GameHost.cpp.o CMakeFiles/testas.dir/src/GameObject.cpp.o CMakeFiles/testas.dir/src/Renderer.cpp.o CMakeFiles/testas.dir/src/Scene.cpp.o CMakeFiles/testas.dir/src/Cube.cpp.o CMakeFiles/testas.dir/src/main.cpp.o -o testas  glad/libglad.a /usr/lib/libglfw.so.3.4 -lfmt /usr/lib/libGLX.so /usr/lib/libOpenGL.so

@@ -8,8 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/navid/Dev/graphics/gl1/src/Clock.cpp" "CMakeFiles/testas.dir/src/Clock.cpp.o" "gcc" "CMakeFiles/testas.dir/src/Clock.cpp.o.d"
+  "/home/navid/Dev/graphics/gl1/src/Cube.cpp" "CMakeFiles/testas.dir/src/Cube.cpp.o" "gcc" "CMakeFiles/testas.dir/src/Cube.cpp.o.d"
+  "/home/navid/Dev/graphics/gl1/src/GameHost.cpp" "CMakeFiles/testas.dir/src/GameHost.cpp.o" "gcc" "CMakeFiles/testas.dir/src/GameHost.cpp.o.d"
+  "/home/navid/Dev/graphics/gl1/src/GameObject.cpp" "CMakeFiles/testas.dir/src/GameObject.cpp.o" "gcc" "CMakeFiles/testas.dir/src/GameObject.cpp.o.d"
+  "/home/navid/Dev/graphics/gl1/src/Renderer.cpp" "CMakeFiles/testas.dir/src/Renderer.cpp.o" "gcc" "CMakeFiles/testas.dir/src/Renderer.cpp.o.d"
+  "/home/navid/Dev/graphics/gl1/src/Scene.cpp" "CMakeFiles/testas.dir/src/Scene.cpp.o" "gcc" "CMakeFiles/testas.dir/src/Scene.cpp.o.d"
   "/home/navid/Dev/graphics/gl1/src/main.cpp" "CMakeFiles/testas.dir/src/main.cpp.o" "gcc" "CMakeFiles/testas.dir/src/main.cpp.o.d"
-  "/home/navid/Dev/graphics/gl1/src/shaderload.cpp" "CMakeFiles/testas.dir/src/shaderload.cpp.o" "gcc" "CMakeFiles/testas.dir/src/shaderload.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

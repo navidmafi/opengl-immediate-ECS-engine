@@ -142,6 +142,150 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+src/Clock.o: src/Clock.cpp.o
+.PHONY : src/Clock.o
+
+# target to build an object file
+src/Clock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Clock.cpp.o
+.PHONY : src/Clock.cpp.o
+
+src/Clock.i: src/Clock.cpp.i
+.PHONY : src/Clock.i
+
+# target to preprocess a source file
+src/Clock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Clock.cpp.i
+.PHONY : src/Clock.cpp.i
+
+src/Clock.s: src/Clock.cpp.s
+.PHONY : src/Clock.s
+
+# target to generate assembly for a file
+src/Clock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Clock.cpp.s
+.PHONY : src/Clock.cpp.s
+
+src/Cube.o: src/Cube.cpp.o
+.PHONY : src/Cube.o
+
+# target to build an object file
+src/Cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Cube.cpp.o
+.PHONY : src/Cube.cpp.o
+
+src/Cube.i: src/Cube.cpp.i
+.PHONY : src/Cube.i
+
+# target to preprocess a source file
+src/Cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Cube.cpp.i
+.PHONY : src/Cube.cpp.i
+
+src/Cube.s: src/Cube.cpp.s
+.PHONY : src/Cube.s
+
+# target to generate assembly for a file
+src/Cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Cube.cpp.s
+.PHONY : src/Cube.cpp.s
+
+src/GameHost.o: src/GameHost.cpp.o
+.PHONY : src/GameHost.o
+
+# target to build an object file
+src/GameHost.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/GameHost.cpp.o
+.PHONY : src/GameHost.cpp.o
+
+src/GameHost.i: src/GameHost.cpp.i
+.PHONY : src/GameHost.i
+
+# target to preprocess a source file
+src/GameHost.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/GameHost.cpp.i
+.PHONY : src/GameHost.cpp.i
+
+src/GameHost.s: src/GameHost.cpp.s
+.PHONY : src/GameHost.s
+
+# target to generate assembly for a file
+src/GameHost.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/GameHost.cpp.s
+.PHONY : src/GameHost.cpp.s
+
+src/GameObject.o: src/GameObject.cpp.o
+.PHONY : src/GameObject.o
+
+# target to build an object file
+src/GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/GameObject.cpp.o
+.PHONY : src/GameObject.cpp.o
+
+src/GameObject.i: src/GameObject.cpp.i
+.PHONY : src/GameObject.i
+
+# target to preprocess a source file
+src/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/GameObject.cpp.i
+.PHONY : src/GameObject.cpp.i
+
+src/GameObject.s: src/GameObject.cpp.s
+.PHONY : src/GameObject.s
+
+# target to generate assembly for a file
+src/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/GameObject.cpp.s
+.PHONY : src/GameObject.cpp.s
+
+src/Renderer.o: src/Renderer.cpp.o
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
+src/Scene.o: src/Scene.cpp.o
+.PHONY : src/Scene.o
+
+# target to build an object file
+src/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Scene.cpp.o
+.PHONY : src/Scene.cpp.o
+
+src/Scene.i: src/Scene.cpp.i
+.PHONY : src/Scene.i
+
+# target to preprocess a source file
+src/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Scene.cpp.i
+.PHONY : src/Scene.cpp.i
+
+src/Scene.s: src/Scene.cpp.s
+.PHONY : src/Scene.s
+
+# target to generate assembly for a file
+src/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/Scene.cpp.s
+.PHONY : src/Scene.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -166,30 +310,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/shaderload.o: src/shaderload.cpp.o
-.PHONY : src/shaderload.o
-
-# target to build an object file
-src/shaderload.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/shaderload.cpp.o
-.PHONY : src/shaderload.cpp.o
-
-src/shaderload.i: src/shaderload.cpp.i
-.PHONY : src/shaderload.i
-
-# target to preprocess a source file
-src/shaderload.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/shaderload.cpp.i
-.PHONY : src/shaderload.cpp.i
-
-src/shaderload.s: src/shaderload.cpp.s
-.PHONY : src/shaderload.s
-
-# target to generate assembly for a file
-src/shaderload.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/shaderload.cpp.s
-.PHONY : src/shaderload.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +320,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... glad"
 	@echo "... testas"
+	@echo "... src/Clock.o"
+	@echo "... src/Clock.i"
+	@echo "... src/Clock.s"
+	@echo "... src/Cube.o"
+	@echo "... src/Cube.i"
+	@echo "... src/Cube.s"
+	@echo "... src/GameHost.o"
+	@echo "... src/GameHost.i"
+	@echo "... src/GameHost.s"
+	@echo "... src/GameObject.o"
+	@echo "... src/GameObject.i"
+	@echo "... src/GameObject.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
+	@echo "... src/Scene.o"
+	@echo "... src/Scene.i"
+	@echo "... src/Scene.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/shaderload.o"
-	@echo "... src/shaderload.i"
-	@echo "... src/shaderload.s"
 .PHONY : help
 
 

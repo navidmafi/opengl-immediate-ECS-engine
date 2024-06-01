@@ -7,8 +7,17 @@ find_package(glfw3 REQUIRED)
 add_subdirectory(glad/)
 
 add_executable(testas 
+    src/Clock.cpp
+    src/GameHost.cpp
+    src/GameObject.cpp
+    src/Renderer.cpp
+    src/Scene.cpp
+    src/Cube.cpp
     src/main.cpp 
-    src/shaderload.cpp
 )
 
-target_link_libraries(testas PUBLIC glad glfw fmt)
+target_include_directories(testas PUBLIC 
+    ${PROJECT_SOURCE_DIR}/include
+)
+
+target_link_libraries(testas PUBLIC glad glfw OpenGL::GL fmt)

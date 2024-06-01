@@ -1,5 +1,6 @@
 CMakeFiles/testas.dir/src/main.cpp.o: \
  /home/navid/Dev/graphics/gl1/src/main.cpp /usr/include/stdc-predef.h \
+ /home/navid/Dev/graphics/gl1/include/Renderer.hpp \
  /home/navid/Dev/graphics/gl1/glad/include/glad/gl.h \
  /home/navid/Dev/graphics/gl1/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h \
@@ -153,13 +154,21 @@ CMakeFiles/testas.dir/src/main.cpp.o: \
  /usr/include/c++/14.1.1/backward/auto_ptr.h \
  /usr/include/c++/14.1.1/pstl/glue_memory_defs.h \
  /usr/include/c++/14.1.1/pstl/execution_defs.h \
+ /home/navid/Dev/graphics/gl1/include/RendererConfig.hpp \
+ /home/navid/Dev/graphics/gl1/include/Scene.hpp \
+ /usr/include/c++/14.1.1/list /usr/include/c++/14.1.1/bits/stl_list.h \
+ /usr/include/c++/14.1.1/bits/list.tcc \
+ /home/navid/Dev/graphics/gl1/include/GameObject.hpp \
  /usr/include/c++/14.1.1/vector /usr/include/c++/14.1.1/bits/stl_vector.h \
  /usr/include/c++/14.1.1/bits/stl_bvector.h \
- /usr/include/c++/14.1.1/bits/vector.tcc /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
- /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /home/navid/Dev/graphics/gl1/src/utils.h /usr/include/c++/14.1.1/list \
- /usr/include/c++/14.1.1/bits/stl_list.h \
- /usr/include/c++/14.1.1/bits/list.tcc
+ /usr/include/c++/14.1.1/bits/vector.tcc \
+ /home/navid/Dev/graphics/gl1/include/Vec3.hpp \
+ /home/navid/Dev/graphics/gl1/include/Face.hpp \
+ /usr/include/c++/14.1.1/array /usr/include/c++/14.1.1/compare \
+ /home/navid/Dev/graphics/gl1/include/Vec3.hpp \
+ /home/navid/Dev/graphics/gl1/include/RGBAC.hpp \
+ /home/navid/Dev/graphics/gl1/include/RGBAC.hpp \
+ /home/navid/Dev/graphics/gl1/include/Cube.hpp \
+ /home/navid/Dev/graphics/gl1/include/Clock.hpp \
+ /home/navid/Dev/graphics/gl1/include/GameHost.hpp \
+ /home/navid/Dev/graphics/gl1/include/WindowConfig.hpp

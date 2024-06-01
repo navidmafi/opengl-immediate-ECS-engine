@@ -4,7 +4,7 @@
 # compile CXX with /sbin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/navid/Dev/graphics/gl1/glad/include
+CXX_INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
 
 CXX_FLAGS = 
 

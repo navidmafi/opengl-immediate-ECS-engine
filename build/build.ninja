@@ -49,17 +49,52 @@ cmake_ninja_workdir = /home/navid/Dev/graphics/gl1/build/
 
 build cmake_object_order_depends_target_testas: phony || cmake_object_order_depends_target_glad
 
-build CMakeFiles/testas.dir/src/main.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/main.cpp || cmake_object_order_depends_target_testas
-  DEP_FILE = CMakeFiles/testas.dir/src/main.cpp.o.d
+build CMakeFiles/testas.dir/src/Clock.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/Clock.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/Clock.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/navid/Dev/graphics/gl1/glad/include
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
   OBJECT_DIR = CMakeFiles/testas.dir
   OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
 
-build CMakeFiles/testas.dir/src/shaderload.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/shaderload.cpp || cmake_object_order_depends_target_testas
-  DEP_FILE = CMakeFiles/testas.dir/src/shaderload.cpp.o.d
+build CMakeFiles/testas.dir/src/GameHost.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/GameHost.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/GameHost.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/navid/Dev/graphics/gl1/glad/include
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
+  OBJECT_DIR = CMakeFiles/testas.dir
+  OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
+
+build CMakeFiles/testas.dir/src/GameObject.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/GameObject.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/GameObject.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
+  OBJECT_DIR = CMakeFiles/testas.dir
+  OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
+
+build CMakeFiles/testas.dir/src/Renderer.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/Renderer.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/Renderer.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
+  OBJECT_DIR = CMakeFiles/testas.dir
+  OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
+
+build CMakeFiles/testas.dir/src/Scene.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/Scene.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/Scene.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
+  OBJECT_DIR = CMakeFiles/testas.dir
+  OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
+
+build CMakeFiles/testas.dir/src/Cube.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/Cube.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/Cube.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
+  OBJECT_DIR = CMakeFiles/testas.dir
+  OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
+
+build CMakeFiles/testas.dir/src/main.cpp.o: CXX_COMPILER__testas_unscanned_Debug /home/navid/Dev/graphics/gl1/src/main.cpp || cmake_object_order_depends_target_testas
+  DEP_FILE = CMakeFiles/testas.dir/src/main.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/navid/Dev/graphics/gl1/include -I/home/navid/Dev/graphics/gl1/glad/include
   OBJECT_DIR = CMakeFiles/testas.dir
   OBJECT_FILE_DIR = CMakeFiles/testas.dir/src
 
@@ -71,9 +106,9 @@ build CMakeFiles/testas.dir/src/shaderload.cpp.o: CXX_COMPILER__testas_unscanned
 #############################################
 # Link the executable testas
 
-build testas: CXX_EXECUTABLE_LINKER__testas_Debug CMakeFiles/testas.dir/src/main.cpp.o CMakeFiles/testas.dir/src/shaderload.cpp.o | glad/libglad.a /usr/lib/libglfw.so.3.4 || glad/libglad.a
+build testas: CXX_EXECUTABLE_LINKER__testas_Debug CMakeFiles/testas.dir/src/Clock.cpp.o CMakeFiles/testas.dir/src/GameHost.cpp.o CMakeFiles/testas.dir/src/GameObject.cpp.o CMakeFiles/testas.dir/src/Renderer.cpp.o CMakeFiles/testas.dir/src/Scene.cpp.o CMakeFiles/testas.dir/src/Cube.cpp.o CMakeFiles/testas.dir/src/main.cpp.o | glad/libglad.a /usr/lib/libglfw.so.3.4 /usr/lib/libGLX.so /usr/lib/libOpenGL.so || glad/libglad.a
   FLAGS = -g
-  LINK_LIBRARIES = glad/libglad.a  /usr/lib/libglfw.so.3.4  -lfmt
+  LINK_LIBRARIES = glad/libglad.a  /usr/lib/libglfw.so.3.4  -lfmt  /usr/lib/libGLX.so  /usr/lib/libOpenGL.so
   OBJECT_DIR = CMakeFiles/testas.dir
   POST_BUILD = :
   PRE_LINK = :
