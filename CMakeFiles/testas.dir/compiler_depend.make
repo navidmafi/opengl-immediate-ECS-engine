@@ -4,6 +4,7 @@
 CMakeFiles/testas.dir/src/main.cpp.o: src/main.cpp \
   glad/include/KHR/khrplatform.h \
   glad/include/glad/gl.h \
+  src/utils.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -100,6 +101,7 @@ CMakeFiles/testas.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/14.1.1/bits/hash_bytes.h \
   /usr/include/c++/14.1.1/bits/invoke.h \
   /usr/include/c++/14.1.1/bits/ios_base.h \
+  /usr/include/c++/14.1.1/bits/list.tcc \
   /usr/include/c++/14.1.1/bits/locale_classes.h \
   /usr/include/c++/14.1.1/bits/locale_classes.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
@@ -126,6 +128,7 @@ CMakeFiles/testas.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/14.1.1/bits/stl_iterator.h \
   /usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/14.1.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.1.1/bits/stl_list.h \
   /usr/include/c++/14.1.1/bits/stl_pair.h \
   /usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/14.1.1/bits/stl_tempbuf.h \
@@ -165,6 +168,7 @@ CMakeFiles/testas.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/14.1.1/iosfwd \
   /usr/include/c++/14.1.1/iterator \
   /usr/include/c++/14.1.1/limits \
+  /usr/include/c++/14.1.1/list \
   /usr/include/c++/14.1.1/memory \
   /usr/include/c++/14.1.1/new \
   /usr/include/c++/14.1.1/pstl/execution_defs.h \
@@ -523,6 +527,8 @@ src/shaderload.cpp:
 
 /usr/include/c++/14.1.1/memory:
 
+/usr/include/c++/14.1.1/list:
+
 /usr/include/c++/14.1.1/ext/type_traits.h:
 
 /usr/include/c++/14.1.1/ext/string_conversions.h:
@@ -569,6 +575,10 @@ src/shaderload.cpp:
 
 /usr/include/c++/14.1.1/bits/stl_tempbuf.h:
 
+/usr/include/c++/14.1.1/bits/stl_pair.h:
+
+/usr/include/c++/14.1.1/bits/stl_list.h:
+
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/14.1.1/bits/exception_defines.h:
@@ -605,12 +615,6 @@ src/shaderload.cpp:
 
 /usr/include/bits/getopt_core.h:
 
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/14.1.1/bits/move.h:
-
-/usr/include/bits/types/sigset_t.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/14.1.1/bits/predefined_ops.h:
@@ -631,6 +635,16 @@ src/shaderload.cpp:
 
 /usr/include/c++/14.1.1/bits/range_access.h:
 
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/14.1.1/bits/vector.tcc:
+
+/usr/include/c++/14.1.1/bits/stl_algobase.h:
+
+/usr/include/bits/select.h:
+
 /usr/include/c++/14.1.1/stdlib.h:
 
 /usr/include/bits/struct_mutex.h:
@@ -648,10 +662,6 @@ glad/include/KHR/khrplatform.h:
 /usr/include/bits/uintn-identity.h:
 
 /usr/include/bits/long-double.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/bits/time64.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -686,6 +696,26 @@ src/main.cpp:
 /usr/include/bits/posix_opt.h:
 
 /usr/include/bits/confname.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/c++/14.1.1/bits/move.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+src/utils.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/waitflags.h:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -731,6 +761,8 @@ src/main.cpp:
 
 /usr/include/c++/14.1.1/bits/std_abs.h:
 
+/usr/include/c++/14.1.1/bits/list.tcc:
+
 /usr/include/bits/getopt_posix.h:
 
 /usr/include/bits/libc-header-start.h:
@@ -747,8 +779,6 @@ src/main.cpp:
 
 /usr/include/c++/14.1.1/bits/stl_bvector.h:
 
-/usr/include/c++/14.1.1/bits/stl_pair.h:
-
 /usr/include/c++/14.1.1/ext/numeric_traits.h:
 
 glad/include/glad/gl.h:
@@ -759,29 +789,11 @@ glad/include/glad/gl.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/c++/14.1.1/bits/vector.tcc:
-
-/usr/include/c++/14.1.1/bits/stl_algobase.h:
-
-/usr/include/bits/select.h:
-
 /usr/include/c++/14.1.1/bits/uses_allocator_args.h:
 
 /usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h:
-
-/usr/include/ctype.h:
-
-/usr/include/bits/waitflags.h:
 
 /usr/include/c++/14.1.1/string:
 
@@ -840,6 +852,12 @@ glad/include/glad/gl.h:
 /usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/14.1.1/bits/char_traits.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/14.1.1/bits/basic_string.h:
 
 /usr/include/c++/14.1.1/bits/basic_string.tcc:
 
@@ -916,9 +934,3 @@ glad/include/glad/gl.h:
 /usr/include/c++/14.1.1/iterator:
 
 /usr/include/c++/14.1.1/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h:
-
-/usr/include/c++/14.1.1/bits/basic_string.h:
-
-/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:

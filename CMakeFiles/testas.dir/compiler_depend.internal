@@ -5,6 +5,7 @@ CMakeFiles/testas.dir/src/main.cpp.o
  /home/navid/Dev/graphics/gl1/src/main.cpp
  /home/navid/Dev/graphics/gl1/glad/include/KHR/khrplatform.h
  /home/navid/Dev/graphics/gl1/glad/include/glad/gl.h
+ /home/navid/Dev/graphics/gl1/src/utils.h
  /usr/include/GLFW/glfw3.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -101,6 +102,7 @@ CMakeFiles/testas.dir/src/main.cpp.o
  /usr/include/c++/14.1.1/bits/hash_bytes.h
  /usr/include/c++/14.1.1/bits/invoke.h
  /usr/include/c++/14.1.1/bits/ios_base.h
+ /usr/include/c++/14.1.1/bits/list.tcc
  /usr/include/c++/14.1.1/bits/locale_classes.h
  /usr/include/c++/14.1.1/bits/locale_classes.tcc
  /usr/include/c++/14.1.1/bits/localefwd.h
@@ -127,6 +129,7 @@ CMakeFiles/testas.dir/src/main.cpp.o
  /usr/include/c++/14.1.1/bits/stl_iterator.h
  /usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14.1.1/bits/stl_iterator_base_types.h
+ /usr/include/c++/14.1.1/bits/stl_list.h
  /usr/include/c++/14.1.1/bits/stl_pair.h
  /usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h
  /usr/include/c++/14.1.1/bits/stl_tempbuf.h
@@ -166,6 +169,7 @@ CMakeFiles/testas.dir/src/main.cpp.o
  /usr/include/c++/14.1.1/iosfwd
  /usr/include/c++/14.1.1/iterator
  /usr/include/c++/14.1.1/limits
+ /usr/include/c++/14.1.1/list
  /usr/include/c++/14.1.1/memory
  /usr/include/c++/14.1.1/new
  /usr/include/c++/14.1.1/pstl/execution_defs.h

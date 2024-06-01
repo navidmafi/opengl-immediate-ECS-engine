@@ -159,4 +159,7 @@ CMakeFiles/testas.dir/src/main.cpp.o: \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h
+ /usr/include/linux/close_range.h \
+ /home/navid/Dev/graphics/gl1/src/utils.h /usr/include/c++/14.1.1/list \
+ /usr/include/c++/14.1.1/bits/stl_list.h \
+ /usr/include/c++/14.1.1/bits/list.tcc
