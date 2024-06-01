@@ -1,6 +1,0 @@
-/home/navid/Dev/graphics/gl1/build/CMakeFiles/testas.dir
-/home/navid/Dev/graphics/gl1/build/CMakeFiles/edit_cache.dir
-/home/navid/Dev/graphics/gl1/build/CMakeFiles/rebuild_cache.dir
-/home/navid/Dev/graphics/gl1/build/glad/CMakeFiles/glad.dir
-/home/navid/Dev/graphics/gl1/build/glad/CMakeFiles/edit_cache.dir
-/home/navid/Dev/graphics/gl1/build/glad/CMakeFiles/rebuild_cache.dir
