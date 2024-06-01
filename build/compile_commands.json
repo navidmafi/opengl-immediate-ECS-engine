@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/navid/Dev/graphics/gl1/build",
+  "command": "/sbin/g++ -I/home/navid/Dev/graphics/gl1/glad/include -g -o CMakeFiles/testas.dir/src/main.cpp.o -c /home/navid/Dev/graphics/gl1/src/main.cpp",
+  "file": "/home/navid/Dev/graphics/gl1/src/main.cpp",
+  "output": "CMakeFiles/testas.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/navid/Dev/graphics/gl1/build",
+  "command": "/sbin/g++ -I/home/navid/Dev/graphics/gl1/glad/include -g -o CMakeFiles/testas.dir/src/shaderload.cpp.o -c /home/navid/Dev/graphics/gl1/src/shaderload.cpp",
+  "file": "/home/navid/Dev/graphics/gl1/src/shaderload.cpp",
+  "output": "CMakeFiles/testas.dir/src/shaderload.cpp.o"
+},
+{
+  "directory": "/home/navid/Dev/graphics/gl1/build",
+  "command": "/sbin/gcc -I/home/navid/Dev/graphics/gl1/glad/include -g -o glad/CMakeFiles/glad.dir/src/gl.c.o -c /home/navid/Dev/graphics/gl1/glad/src/gl.c",
+  "file": "/home/navid/Dev/graphics/gl1/glad/src/gl.c",
+  "output": "glad/CMakeFiles/glad.dir/src/gl.c.o"
+}
+]

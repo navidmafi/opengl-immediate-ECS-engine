@@ -1,0 +1,1 @@
+/sbin/c++ CMakeFiles/testas.dir/src/main.cpp.o CMakeFiles/testas.dir/src/shaderload.cpp.o -o testas  glad/libglad.a /usr/lib/libglfw.so.3.4 -lfmt
