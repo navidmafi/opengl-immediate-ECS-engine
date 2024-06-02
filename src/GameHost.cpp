@@ -1,5 +1,4 @@
-#include "GameHost.hpp"
-
+#include <GameHost.hpp>
 GameHost::GameHost(WindowConfig wc) : window_config(wc), window(nullptr) {}
 
 void GameHost::hostWindowInit()
@@ -20,9 +19,34 @@ void GameHost::hostWindowInit()
     }
 
     glfwMakeContextCurrent(window);
+    glfwSetFramebufferSizeCallback(window, internal_framebufferSizeCallback);
 }
 
 GLFWwindow *GameHost::getWindow() const
 {
     return window;
+}
+
+// void GameHost::onResize = default;
+
+void GameHost::onResize(std::function<void(int, int)> callback)
+{
+    resizeCallback = callback;
+}
+
+void GameHost::triggerResize(int newWidth, int newHeight)
+{
+    if (resizeCallback)
+    {
+        resizeCallback(newWidth, newHeight);
+    }
+}
+
+void GameHost::internal_framebufferSizeCallback(GLFWwindow *window, int width, int height)
+{
+    GameHost *host = static_cast<GameHost *>(glfwGetWindowUserPointer(window));
+    if (host)
+    {
+        host->triggerResize(width, height);
+    }
 }

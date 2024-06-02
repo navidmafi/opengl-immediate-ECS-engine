@@ -33,3 +33,11 @@ double OpenGLRenderer::targetFrametime()
 {
     return 1.0 / config.framecap;
 }
+
+void OpenGLRenderer::changeFBSize(int newWidth, int newHeight)
+{
+    fmt::println("changing render resolution {} x {}", newWidth, newHeight);
+    this->config.fb_width = newWidth;
+    this->config.fb_height = newHeight;
+    glViewport(0, 0, newWidth, newHeight);
+}

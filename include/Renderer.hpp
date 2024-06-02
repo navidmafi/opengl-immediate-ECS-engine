@@ -21,6 +21,7 @@ public:
     void initializeCtx();
     void initializeGL();
     double targetFrametime();
+    void changeFBSize(int newWidth, int newHeight);
 };
 
 #endif // OPENGLRENDERER_H
